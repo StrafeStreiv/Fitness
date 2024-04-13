@@ -6,7 +6,7 @@ namespace Fitness
 {
     class Program
     {
-        static DateTime InputBirthDay()
+        private static DateTime InputBirthDay()
         {
             Console.Write("Введите год рождения (dd.MM.yyyy): ");
             var bDay = Console.ReadLine();
@@ -18,7 +18,7 @@ namespace Fitness
             }
             else return result;
         }
-        static double InputDoubleNumber(string weightOrHeight)
+        private static double InputDoubleNumber(string weightOrHeight)
         {
             Console.Write($"Введите свой {weightOrHeight}: ");
             string checkout = Console.ReadLine();
