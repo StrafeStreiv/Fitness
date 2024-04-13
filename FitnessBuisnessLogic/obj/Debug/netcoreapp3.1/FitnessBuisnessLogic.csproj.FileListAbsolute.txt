@@ -1,0 +1,10 @@
+C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\bin\Debug\netcoreapp3.1\FitnessBuisnessLogic.deps.json
+C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\bin\Debug\netcoreapp3.1\FitnessBuisnessLogic.dll
+C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\bin\Debug\netcoreapp3.1\FitnessBuisnessLogic.pdb
+C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1\FitnessBuisnessLogic.csproj.AssemblyReference.cache
+C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1\FitnessBuisnessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1\FitnessBuisnessLogic.AssemblyInfoInputs.cache
+C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1\FitnessBuisnessLogic.AssemblyInfo.cs
+C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1\FitnessBuisnessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1\FitnessBuisnessLogic.dll
+C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1\FitnessBuisnessLogic.pdb

@@ -6,23 +6,49 @@ namespace Fitness
 {
     class Program
     {
+        static DateTime InputBirthDay()
+        {
+            Console.Write("Введите год рождения (dd.MM.yyyy): ");
+            var bDay = Console.ReadLine();
+            bool fakeOrNo = DateTime.TryParse(bDay, out DateTime result);
+            if (!fakeOrNo)
+            {
+                Console.WriteLine("Неверный формат даты!");
+                return InputBirthDay();
+            }
+            else return result;
+        }
+        static double InputDoubleNumber(string weightOrHeight)
+        {
+            Console.Write($"Введите свой {weightOrHeight}: ");
+            string checkout = Console.ReadLine();
+            bool fakeOrNo = double.TryParse(checkout, out double result);
+            if (!fakeOrNo)
+            {
+                Console.WriteLine("Неправильный ввод, нужно ввести число");
+                return InputDoubleNumber(weightOrHeight);
+            }
+            else return result;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Вы находитесь в приложении Fitness");
-            Console.WriteLine("Введите имя пользователя");
+            Console.Write("Введите имя пользователя: ");
             var name = Console.ReadLine();
-            Console.WriteLine("Введите пол");
-            var gender = Console.ReadLine();
-            Console.WriteLine("Введите дату рождения");
-            // TODO: переделать
-            var birthDate = DateTime.Parse(Console.ReadLine());
-            Console.WriteLine("Введите вес ");
-            var weight = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите рост ");
-            var height = double.Parse(Console.ReadLine());
+            var userController = new UserController(name);
+            if (userController.IsNewUser)
+            {
+                Console.Write("Введите пол: ");
+                var gender = Console.ReadLine();
+                var birthDate = InputBirthDay();
+                var weight = InputDoubleNumber("вес");
+                var height = InputDoubleNumber("рост");
 
-            var userController = new UserController(name, gender, height, weight, birthDate);
-            userController.Save();
+                userController.SetNewUserData(gender, birthDate, weight, height);
+
+            }
+
+            Console.WriteLine(userController.CurrentUser); 
         }
     }
 }

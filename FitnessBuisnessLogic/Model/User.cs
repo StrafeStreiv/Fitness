@@ -18,7 +18,7 @@ namespace FitnessBuisnessLogic.Model
         /// <summary>
         /// Дата рождения
         /// </summary>
-        public DateTime BirthDate { get; }
+        public DateTime BirthDate { get; set; }
         /// <summary>
         /// Рост
         /// </summary>
@@ -30,7 +30,13 @@ namespace FitnessBuisnessLogic.Model
         /// <summary>
         /// Пол
         /// </summary>
-        public Gender Gender { get; }
+        public Gender Gender { get; set; }
+        /*
+        DateTime now = DateTime.Today;
+        int age = now.Year - bday.Year;
+        if (bday > now.AddYears(-age)) age--;
+        */
+        public int Age { get { return DateTime.Now.Year - BirthDate.Year; } }
         #endregion
         /// <summary>
         /// Создать нового пользователя
@@ -73,9 +79,17 @@ namespace FitnessBuisnessLogic.Model
             Weight = weight;
             
         }
+        public User(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                throw new ArgumentNullException("Имя не может быть пустым или null", nameof(name));
+            }
+            Name = name;
+        }
         public override string ToString()
         {
-            return Name;
+            return Name + "\t" + Age;
         }
     }
 }
