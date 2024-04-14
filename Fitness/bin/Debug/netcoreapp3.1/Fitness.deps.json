@@ -8,12 +8,14 @@
     ".NETCoreApp,Version=v3.1": {
       "Fitness/1.0.0": {
         "dependencies": {
-          "FitnessBuisnessLogic": "1.0.0"
+          "FitnessBuisnessLogic": "1.0.0",
+          "System.ValueTuple": "4.5.0"
         },
         "runtime": {
           "Fitness.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {},
       "FitnessBuisnessLogic/1.0.0": {
         "runtime": {
           "FitnessBuisnessLogic.dll": {}
@@ -26,6 +28,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
     "FitnessBuisnessLogic/1.0.0": {
       "type": "project",

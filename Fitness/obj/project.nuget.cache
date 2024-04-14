@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qBDzRtTyFNM0g2Fom5sMPQ0MHFK6A9H0VewuUnJSNz6fPvUIlyN5tE+Ogik3W6QM4NO3uQVdXZNn1Vt0oDLy7w==",
+  "dgSpecHash": "m5AW3vL506H3ISd2uN/Wh9NfSNn2IQtkPJWRqOIwdI88UTuK2U3/MQSZpVMdt/V4hhydDD6jDfHW/ptp+k1xnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sasha\\source\\repos\\Fitness\\Fitness\\Fitness.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Sasha\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
