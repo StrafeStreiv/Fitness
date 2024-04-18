@@ -7,4 +7,3 @@ C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1
 C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1\FitnessBuisnessLogic.csproj.CoreCompileInputs.cache
 C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1\FitnessBuisnessLogic.dll
 C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1\FitnessBuisnessLogic.pdb
-C:\Users\Sasha\source\repos\Fitness\FitnessBuisnessLogic\obj\Debug\netcoreapp3.1\FitnessBuisnessLogic.csproj.AssemblyReference.cache
