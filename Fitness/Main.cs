@@ -1,6 +1,8 @@
 ﻿using FitnessBuisnessLogic.Controller;
 using FitnessBuisnessLogic.Model;
 using System;
+using System.Globalization;
+using System.Resources;
 
 namespace Fitness
 {
@@ -32,14 +34,16 @@ namespace Fitness
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Вы находитесь в приложении Fitness");
-            Console.Write("Введите имя пользователя: ");
+            var culture = CultureInfo.CreateSpecificCulture("ru-ru");
+            var resourcesManager = new ResourceManager("Fitness.Languages.Messages", typeof(Program).Assembly);
+            Console.WriteLine(resourcesManager.GetString("Hello"), culture);
+            Console.Write(resourcesManager.GetString("EnterName"), culture);
             var name = Console.ReadLine();
             var userController = new UserController(name);
             var eatingController = new EatingFoodController(userController.CurrentUser);
             if (userController.IsNewUser)
             {
-                Console.Write("Введите пол: ");
+                Console.Write(resourcesManager.GetString("EnterGender"), culture);
                 var gender = Console.ReadLine();
                 var birthDate = InputBirthDay();
                 var weight = InputDoubleNumber("вес");

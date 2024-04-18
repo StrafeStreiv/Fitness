@@ -15,3 +15,11 @@ C:\Users\Sasha\source\repos\Fitness\Fitness\obj\Debug\netcoreapp3.1\Fitness.cspr
 C:\Users\Sasha\source\repos\Fitness\Fitness\obj\Debug\netcoreapp3.1\Fitness.dll
 C:\Users\Sasha\source\repos\Fitness\Fitness\obj\Debug\netcoreapp3.1\Fitness.pdb
 C:\Users\Sasha\source\repos\Fitness\Fitness\obj\Debug\netcoreapp3.1\Fitness.genruntimeconfig.cache
+C:\Users\Sasha\source\repos\Fitness\Fitness\obj\Debug\netcoreapp3.1\Fitness.Languages.Messages.resources
+C:\Users\Sasha\source\repos\Fitness\Fitness\obj\Debug\netcoreapp3.1\Fitness.csproj.GenerateResource.cache
+C:\Users\Sasha\source\repos\Fitness\Fitness\bin\Debug\netcoreapp3.1\en-us\Fitness.resources.dll
+C:\Users\Sasha\source\repos\Fitness\Fitness\bin\Debug\netcoreapp3.1\ru-ru\Fitness.resources.dll
+C:\Users\Sasha\source\repos\Fitness\Fitness\obj\Debug\netcoreapp3.1\Fitness.Languages.Messages.en-us.resources
+C:\Users\Sasha\source\repos\Fitness\Fitness\obj\Debug\netcoreapp3.1\Fitness.Languages.Messages.ru-ru.resources
+C:\Users\Sasha\source\repos\Fitness\Fitness\obj\Debug\netcoreapp3.1\en-us\Fitness.resources.dll
+C:\Users\Sasha\source\repos\Fitness\Fitness\obj\Debug\netcoreapp3.1\ru-ru\Fitness.resources.dll
